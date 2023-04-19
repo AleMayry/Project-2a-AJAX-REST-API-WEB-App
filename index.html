@@ -7,25 +7,23 @@
         <link rel="stylesheet" href="2aStyles.css">
     </head>
     <body>
-        <div class="alert alert-success" role="alert">
-            <h1>Countries Information</h1>
+        <div class="container">
+            <div class="countries">
+                
+            </div>
         </div>
-      <!--<div id="data"></div>--> 
-      <div class="countries">
-  
         <!--  
         <article class="country">
-            <img class="country__img" src="" alt="" />
-            <div class="country__data">
-                <h3 class="country__name">COUNTRY</h3>
-                <h4 class="country__region">REGION</h4>
-                <p class="country__row"><span></span>POPULATION</p>
-                <p class="country__row"><span></span>LANGUAGE</p>
-                <p class="country__row"><span></span><b>CURRENCY</b></p>
+            <img class="country_img" src="" />
+            <div class="country_data">
+                <h3 class="country_name">${data.name}</h3>
+                <h4 class="country_region">${data.region}</h4>
+                <p class="country_row"><span></span>${data.population}</p>
+                <p class="country_row"><span></span>${data.languages[0].name}</p>
+                <p class="country_row"><span></span><b>${data.currencies[0].name}</b></p>
             </div>
         </article>
         -->
-      </div>
     </body>
     <script src="2aScript.js"></script>
 </html>
