@@ -3,27 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AJAX Countries REST API</title>
+        <title>Countries Information App</title>
         <link rel="stylesheet" href="2aStyles.css">
     </head>
     <body>
         <div class="container">
-            <div class="countries">
-                
+            <div class="search-wrapper">
+                <input 
+                type="text" 
+                id="country-inp" 
+                placeholder="Enter country name here..."
+                />
+                <button id="search-btn">Search</button>
             </div>
+            <div id="result"></div>
         </div>
-        <!--  
-        <article class="country">
-            <img class="country_img" src="" />
-            <div class="country_data">
-                <h3 class="country_name">${data.name}</h3>
-                <h4 class="country_region">${data.region}</h4>
-                <p class="country_row"><span></span>${data.population}</p>
-                <p class="country_row"><span></span>${data.languages[0].name}</p>
-                <p class="country_row"><span></span><b>${data.currencies[0].name}</b></p>
-            </div>
-        </article>
-        -->
     </body>
     <script src="2aScript.js"></script>
-</html>
+</html> 
