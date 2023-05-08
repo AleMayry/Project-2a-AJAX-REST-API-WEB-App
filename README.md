@@ -5,7 +5,7 @@ Tässä Projektini julkaisu, joka on tehty Laurean opintojaksolla Web-sovelluste
 Projektin netlify linkki:
 https://peppy-cobbler-7a3cfa.netlify.app/
 
-Projektiksi valitsin Web-sovelluksen, jossa käyttäjä voi hakea maan nimellä ja . 
+Projektiksi valitsin Web-sovelluksen, jossa käyttäjä voi hakea maan nimellä ja saada täten perus tiedot maasta, kuten asukasluvun, pääkaupungin sekä kielet. 
 
 Hyödynsin projektin kehittämiseen muutamia video-ohjeita, ymmärtääkseni projektissa API:n käytön.
 
