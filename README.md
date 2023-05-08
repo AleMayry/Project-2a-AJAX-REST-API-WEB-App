@@ -1,5 +1,7 @@
 # Project-2a-AJAX-REST-API-WEB-App
+
 Tervetuloa!
+
 Tässä Projektini julkaisu, joka on tehty Laurean opintojaksolla Web-sovellusten kehittäminen Javascriptillä TO00BL10-3018.
 
 Projektin netlify linkki:
